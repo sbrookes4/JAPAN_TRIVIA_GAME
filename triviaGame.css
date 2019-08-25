@@ -1,0 +1,153 @@
+body {
+margin:0;
+overflow-x:hidden;
+}
+
+
+/*------------------------------------------------*/
+#toppy{
+	width:100%;
+	background-color:white;
+	border-bottom:3px solid black;
+	float:left;
+}
+
+#leftBox, #rightBox{
+	width:22%;
+	margin-top:2vh;
+	text-align:center;
+	float:left;
+}
+
+#japanBanner{
+	margin-top:2vh;
+	text-align:center;
+	float:left;
+	width:50%;
+	border:3px solid black;
+}
+
+.cute{
+	width:80%;
+}
+
+#titleBox{
+	margin-bottom:4vh;
+	border-bottom:black 2px solid;
+	width:100%;
+	text-align:center;
+	float:left;
+}
+
+
+#startButton{
+	font-size:18px;
+}
+
+
+.timeRemaining{
+	margin-top:40px;
+	font-weight:900;
+	font-size:4vh;
+}
+
+
+#scoreBox{
+
+}
+
+#scoreText{
+
+}
+
+.scoreInfo{
+	margin-bottom: 4vh;
+	font-weight:900;
+	font-size:5vh;
+	text-align:center;
+}
+/*------------------------------------------------*/
+
+#readyImageContainer{
+	display:block;
+	margin-top:3vh;
+	float:left;
+	text-align:center;
+}
+
+#readyImg{
+	width:60%;
+	border:3px solid black;
+}
+
+#activityBox{
+	word-wrap: break-word;
+	width:100%;
+	display:block;
+	margin:auto;
+	text-align:center;
+	float:left;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+
+#lineBreak{
+	width:100%;
+	border:2px solid black;
+	display:block;
+	margin:auto;
+
+}
+
+.selector{
+margin-bottom:60px;
+margin-top:30px;
+	
+}
+
+input[type="radio"]{
+	margin-right:5px;
+}
+
+.label{
+	font-weight:900;
+	font-size:20px;
+	margin-right:35px;
+}
+
+.WAR{
+	font-weight:900;
+	font-size:30px;
+	margin-bottom:10px;
+}
+
+.ansPic{
+	height:150px;
+}
+
+#fty{
+	text-align: center;
+	margin:2%;
+	width:100%;
+	float:left;
+	border-top:black solid 3px;
+	background-color:white;
+}
+
+.ftyPic{
+	margin-right:2vw;
+	margin-top:2vh;
+	height:10vh;
+}
+
+.moot{
+	width:80%;
+	border:3px black solid;
+
+}
+
+#finished{
+	font-size:24px;
+	font-weight:900px;
+}

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="triviaGame.css">
+	<meta charset="UTF8">
+</head>
+
+	<div id="toppy">
+
+			<div id="leftBox">
+				
+				<img class="cute" src="TRIVIA/pusheen.png">
+
+			</div>
+
+			<img id="japanBanner" src="TRIVIA/JP1.jpg">
+
+			<div id="rightBox">
+				
+				<img class="cute" src="TRIVIA/hk.png">
+
+			</div>
+
+	</div>
+
+	<div id="titleBox">
+			
+		<h1>Japan Trivia<br />
+
+		Let's test your knowledge of Japan!</h1><br>
+
+		<button id="startButton" onclick="trivia();">Start</button>
+
+		<p class="timeRemaining">Time Remaining: <span class="timeRemaining" id="countdown"></span> Seconds</p>
+
+		<div class="scoreInfo" id="scoreBox"></div>
+			
+		<div class="scoreInfo" id="scoreText">Your score is...</div>
+
+	</div>
+
+	<div id="readyImageContainer">
+			
+			<img id="readyImg" src="TRIVIA/Daigoji.jpg">
+
+	</div>    
+
+	<div id="jsiteContainer">
+
+		<div id="activityBox">
+			
+<!-- _____________________question and selector set 1___________________ -->
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/tokyo.jpg">
+
+			</div>
+				
+				<h1>What is Japan's largest city?</h1>
+				<div class="WAR" id="rightWrong1"></div>
+
+			</div>
+
+		    <!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form class="formText" name="question1" class="radios" id="question1" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="01"> Osaka </label><br><br>
+				  <label class="label"><input type="radio" name="a" value="02"> Nagoya</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="03"> Kyoto</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="04"> Tokyo</label><br><br>	
+
+				</form>
+				
+			</div>
+
+<!-- _____________________question and selector set 1___________________ -->
+
+<!-- _____________________question and selector set 2___________________ -->
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/shin.jpg">
+
+			</div>
+				
+				<h1>What is the name for the Japanese Bullet Train?</h1>
+				<div class="WAR" id="rightWrong2"></div>
+
+			</div>
+
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question2" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="0"> Narita Express </label><br><br>
+				  <label class="label"><input type="radio" name="a" value="1"> The Yamanote Line</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="2"> The Shinkansen</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="3"> The Joban Line</label><br><br>	
+
+				</form>
+				
+			</div>
+<!-- _____________________question and selector set 2___________________ -->
+
+<!-- _____________________question and selector set 3___________________ -->
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/fujio.jpg">
+
+			</div>
+				
+				<h1>What is Japan's tallest mountain?</h1>
+				<div class="WAR" id="rightWrong3"></div>
+			</div>
+
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question3" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="4"> Mt. Nantai </label><br><br>
+				  <label class="label"><input type="radio" name="a" value="5"> Mt. Tsukuba</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="6"> Mt. Sakurajima</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="7"> Mt. Fuji</label><br><br>
+
+				</form>
+				
+			</div>
+<!-- _____________________question and selector set 3___________________ -->
+
+<!-- _____________________question and selector set 4___________________ -->
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/auto.jpg">
+
+			</div>
+				
+				<h1>Which of these companies IS NOT a Japanese automobile manufacturer?</h1>
+				<div class="WAR" id="rightWrong4"></div>
+			</div>
+
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question4" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="8"> Hyundai</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="9"> Nissan</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="10"> Toyota</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="11"> Mazda</label><br><br>	
+
+				</form>
+				
+			</div>
+<!-- _____________________question and selector set 4___________________ -->
+
+<!-- _____________________question and selector set 5___________________ -->
+
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/hok.png">
+
+			</div>
+				
+				<h1>The northernmost major island of Japan is called?</h1>
+				<div class="WAR" id="rightWrong5"></div>
+			</div>
+
+	
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question5" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="12"> Hokkaido</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="13"> Honshu</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="14"> Kyushu</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="15"> Shikoku</label><br><br>
+
+				</form>
+				
+			</div>
+<!-- _____________________question and selector set 5___________________ -->
+
+<!-- _____________________question and selector set 6___________________ -->
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/sky.jpg">
+
+			</div>
+				
+				<h1>The tallest structure in Japan is? </h1>
+				<div class="WAR" id="rightWrong6"></div>
+			</div>
+
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question6" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="16"> Tokyo Tower </label><br><br>
+				  <label class="label"><input type="radio" name="a" value="17"> Umeda Sky Building</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="18"> Gakuen Cocoon Tower</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="19"> Tokyo Skytree</label><br><br>	
+
+				</form>
+				
+			</div>
+<!-- _____________________question and selector set 6___________________ -->
+
+<!-- _____________________question and selector set 7___________________ -->
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/kim.jpg">
+
+			</div>
+				
+				<h1>Which of these IS NOT Japanese cuisine?</h1>
+				<div class="WAR" id="rightWrong7"></div>
+			</div>
+
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question7" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value=20> Natto </label><br><br>
+				  <label class="label"><input type="radio" name="a" value="21"> Kimchi</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="22"> Okonomiyaki</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="23"> Udon</label><br><br>	
+
+				</form>
+				
+			</div>
+<!-- _____________________question and selector set 7___________________ -->
+
+<!-- _____________________question and selector set 8___________________ -->
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/arts.jpg">
+
+			</div>
+				
+				<h1>Which of these IS NOT a Japanese martial art?</h1>
+				<div class="WAR" id="rightWrong8"></div>
+			</div>
+
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question8" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="24"> Judo</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="25"> Karate</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="26"> Kendo</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="27"> Wing Chun</label><br><br>	
+
+				</form>
+				
+			</div>
+<!-- _____________________question and selector set 8___________________ -->
+
+<!-- _____________________question and selector set 9___________________ -->
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/yama.png">
+
+			</div>
+				
+				<h1>Which kanji means "mountain" in Japanese?</h1>
+				<div class="WAR" id="rightWrong9"></div>
+			</div>
+
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question9" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="28"> 川</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="29"> 山</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="30"> 風</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="31"> 日</label><br><br>
+
+				</form>
+				
+			</div>
+<!-- _____________________question and selector set 9___________________ -->
+
+<!-- _____________________question and selector set 10___________________ -->
+
+			<div class="question">
+
+			<div>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/kawa.png">
+
+			</div>
+				
+				<h1>Which kanji means "river" in Japanese?</h1>
+				<div class="WAR" id="rightWrong10"></div>
+			</div>
+	
+			<!--<div id="lineBreak"></div>-->
+
+			<div class="selector">
+
+				<form name="question10" class="radios" action=" ">
+
+				  <label class="label"><input type="radio" name="a" value="32"> 川</label><br><br><br>
+				  <label class="label"><input type="radio" name="a" value="33"> 山</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="34"> 風</label><br><br>
+				  <label class="label"><input type="radio" name="a" value="35"> 日</label><br><br>	
+
+				</form>
+				
+				<img class="moot" id="waterFallz" src="TRIVIA/waterfall.jpg">
+
+			</div>
+<!-- _____________________question and selector set 10___________________ -->
+
+		</div><!--activity box closer-->
+
+		<div id="fty">
+			
+			<a href="https://www.jnto.go.jp/"><img class="ftyPic" src="TRIVIA/disc.jpg"></a>
+
+			<a href="https://www.ar.jal.com/arl/en/"><img class="ftyPic" src="TRIVIA/JAL.png"></a>
+
+			<a href="http://www.jetstar.com/us/en/home"><img class="ftyPic" src="TRIVIA/jet.png"></a>
+
+			<a href="http://www.japanrailpass.net/en/"><img class="ftyPic" src="TRIVIA/rail.jpg"></a>
+
+			<a href="http://www.japan-guide.com/"><img class="ftyPic" src="TRIVIA/guide.png"></a>
+
+			<a href="https://www.hardoff.co.jp/offhouse/"><img class="ftyPic" src="TRIVIA/off.jpg"></a>
+
+			<a href="https://www.kinokuniya.co.jp/"><img class="ftyPic" src="TRIVIA/kino.jpg"></a>
+
+			<a href="http://www.uniqlo.com/jp/"><img class="ftyPic" src="TRIVIA/un.jpg"></a>
+
+			<a href="https://www.yoshinoya.com/"><img class="ftyPic" src="TRIVIA/yoshi.jpg"></a>			
+		</div>
+
+	</div><!-- jsiteCloser-->
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="triviaGame.js"></script>
+
+</html>
